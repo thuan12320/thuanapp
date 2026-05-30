@@ -3,7 +3,7 @@ import { Volume2, ArrowLeft, Heart, Flame, Star, CheckCircle2, Play, Sparkles, S
 
 // --- CẤU HÌNH GEMINI API ---
 const apiKey = ""; 
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${AIzaSyBBsUGodRnJG0FyJ61xBLDaltV4d7rDJOA}`;
 
 const callGeminiAPI = async (payload) => {
   let retries = 5;
@@ -28,10 +28,10 @@ const callGeminiAPI = async (payload) => {
 
 // --- DỮ LIỆU NGƯỜI DÙNG (NETFLIX STYLE) ---
 const INITIAL_PROFILES = [
-  { id: '1', name: 'Hải Nam', avatar: '👨‍🦱', bg: 'bg-blue-500', xp: 2450, streak: 12, rank: 1 },
-  { id: '2', name: 'Bảo Ngọc', avatar: '👩', bg: 'bg-pink-500', xp: 1820, streak: 5, rank: 2 },
-  { id: '3', name: 'Mẹ', avatar: '👩‍🦰', bg: 'bg-orange-500', xp: 150, streak: 1, rank: 5 },
-  { id: '4', name: 'Minh Trí', avatar: '👦', bg: 'bg-green-500', xp: 950, streak: 3, rank: 3 },
+  { id: '1', name: 'Papa', avatar: '👨‍🦱', bg: 'bg-blue-500', xp: 2450, streak: 12, rank: 1 },
+  { id: '2', name: 'Mama', avatar: '👩', bg: 'bg-pink-500', xp: 1820, streak: 5, rank: 2 },
+  { id: '3', name: 'Deo', avatar: '🤫', bg: 'bg-orange-500', xp: 150, streak: 1, rank: 5 },
+  { id: '4', name: 'Titi', avatar: '👦', bg: 'bg-green-500', xp: 950, streak: 3, rank: 3 },
   { id: '5', name: 'Khách', avatar: '👤', bg: 'bg-gray-500', xp: 0, streak: 0, rank: 99 },
 ];
 
